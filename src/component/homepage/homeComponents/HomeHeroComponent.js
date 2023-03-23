@@ -2,7 +2,7 @@ import bannerImg from '../../../Assets/img/ImageBanner.svg'
 
 const HomeHeroComponent = () => {
     return (
-        <div className="px-3 md:px-24 h-screen " style={{ backgroundImage: `url(${bannerImg})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+        <div className="px-3 md:px-24 " style={{ backgroundImage: `url(${bannerImg})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: '95vh'}}>
             <div className='pt-44 xxm:text-4xl xm:text-5xl md:text-7xl font-poppins font-bold leading-[5rem]' >
                 <p>
                     Find A <span className='text-success-100'>Job</span>  That
