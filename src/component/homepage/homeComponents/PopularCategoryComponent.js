@@ -3,7 +3,7 @@ const PopularCategoryComponent = () => {
         <div className="bg-success-200 py-10 md:px-24">
             <p className="flex justify-center font-semibold	text-3xl font-poppins leading-[5rem]">Popular Category</p>
 
-            <div>
+            <div className="py-10">
                 <div class="grid lg:grid-cols-4 mx-auto md:grid-cols-3 xm:grid-cols-2 gap-y-14 gap-x-4 px-3 ">
                     <div className="md:row-span-1 flex justify-center">
                         <div className="bg-white md:row-span-1 w-56 h-48 grid grid-cols-1 content-center">
