@@ -10,6 +10,8 @@ module.exports = {
       colors: {
         success: {
           100: '#338573',
+          200: '#F6F7FA',
+          300: 'rgba(51, 133, 115, 0.32)'
         },
       },
       screens: {

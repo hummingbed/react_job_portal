@@ -3,7 +3,7 @@ const NavBarComponent = () => {
     return (
         <nav className='bg-white border relative'>
             <div className="mx-auto fixed top-0 left-0 right-0 bg-white">
-                <div className="relative flex h-16 items-center justify-evenly px-4 md:px-20">
+                <div className="relative flex h-16 items-center justify-evenly px-4 md:px-24">
 
                     <div className="flex flex-1  sm:items-stretch sm:justify-start">
                         <div className="flex flex-shrink-0 ">
