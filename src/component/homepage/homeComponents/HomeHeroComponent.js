@@ -22,7 +22,7 @@ const HomeHeroComponent = () => {
                 <div className="grid gap-6 mt-28 md:grid-cols-2 pb-20">
                     <div className='flex border rounded-lg'>
                         <input className="border h-16 border-success-100 text-sm rounded-l-lg w-full placeholder:text-lg text-success-100 font-bold " placeholder=" &nbsp; Search by job title......................" />
-                        <button type="submit" className="text-white text-sm md:text-2xl bg-success-100 px-7 rounded-r-lg ">Search</button>
+                        <button type="submit" className="text-white text-sm md:text-2xl bg-success-100 px-7 rounded-r-lg font-inter">Search</button>
                     </div>
                 </div>
             </form>

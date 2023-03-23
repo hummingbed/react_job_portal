@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         'noto': ['Noto+Sans+Hebrew'],
-        'poppins': ['Poppins']
+        'poppins': ['Poppins'],
+        'inter': ['Inter']
       },
       colors: {
         success: {
