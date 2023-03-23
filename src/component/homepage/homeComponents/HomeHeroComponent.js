@@ -2,7 +2,7 @@ import bannerImg from '../../../Assets/img/ImageBanner.svg'
 
 const HomeHeroComponent = () => {
     return (
-        <div className="px-3 md:px-24 " style={{ backgroundImage: `url(${bannerImg})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: '95vh'}}>
+        <div className="px-3 md:px-24 " style={{ backgroundImage: `url(${bannerImg})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', }}>
             <div className='pt-44 xxm:text-4xl xm:text-5xl md:text-7xl font-poppins font-bold leading-[5rem]' >
                 <p>
                     Find A <span className='text-success-100'>Job</span>  That
@@ -19,7 +19,7 @@ const HomeHeroComponent = () => {
             </div>
 
             <form>
-                <div className="grid gap-6 mt-28 md:grid-cols-2">
+                <div className="grid gap-6 mt-28 md:grid-cols-2 pb-20">
                     <div className='flex border rounded-lg'>
                         <input className="border h-16 border-success-100 text-sm rounded-l-lg w-full placeholder:text-lg text-success-100 font-bold " placeholder=" &nbsp; Search by job title......................" />
                         <button type="submit" className="text-white text-sm md:text-2xl bg-success-100 px-7 rounded-r-lg ">Search</button>
